@@ -1,0 +1,36 @@
+# Data (download from Kaggle - do not commit)
+data/*.csv
+data/*.zip
+
+# Generated artifacts
+models/
+outputs/
+*.joblib
+*.pkl
+confusion_matrix.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Environments
+venv/
+env/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# NLTK data
+nltk_data/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
